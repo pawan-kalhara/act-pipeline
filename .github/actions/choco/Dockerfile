@@ -18,3 +18,4 @@ RUN apk add --no-cache bash ca-certificates git \
 ENV ChocolateyInstall=/opt/chocolatey
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
+#ff4
